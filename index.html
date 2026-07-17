@@ -42,6 +42,7 @@
               <span>法则碎片</span>
               <span>战役对决</span>
               <span>剑术动作</span>
+              <span>语音喊招</span>
               <span>炼丹锻造</span>
             </div>
           </div>
@@ -59,7 +60,7 @@
         <section class="section">
           <div class="section-header reveal">
             <h2>从凡人误入洪荒，到亲手拾起大道碎片</h2>
-            <p>整合包以原版生存为骨架，把职业选择、能量资源、炼丹锻造、剑术动作和遗迹探索编成一条长期成长线。不是堆数值，而是让每条路都有自己的代价、节奏和战斗姿态。</p>
+            <p>整合包以原版生存为骨架，把职业选择、能量资源、任务系统、炼丹锻造、剑术动作和遗迹探索编成一条长期成长线。不是堆数值，而是让每条路都有自己的代价、节奏和战斗姿态。</p>
           </div>
           <div class="grid three">
             <article class="feature reveal">
@@ -90,6 +91,58 @@
                 <p>BattleMode 提供投票开战、战斗 HUD、伤害统计、MVP 和回放查看。打之前投票，打完看图，少一点嘴硬，多一点证据。</p>
               </div>
             </article>
+            <article class="feature reveal voice-feature-card">
+              <div>
+                <img src="assets/textures/time_fragment.png" alt="">
+                <h3>语音喊招</h3>
+                <p>最新版本包含语音技能控制、匹配与识别模块，并注册语音技能开关键。按下开关，喊出招式名，战斗从按键操作变成带仪式感的现场施法。</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section voice-command-section">
+          <div class="voice-command-panel reveal" data-voice-panel>
+            <div class="voice-command-copy">
+              <span class="kicker">Voice Casting</span>
+              <h2>喊出来，招式才像真的出鞘</h2>
+              <p>语音系统不是拿来装饰的。它把“月华斩”“人皇斩”这种技能从快捷键变成一句有声音的宣告。适合单人沉浸，也适合服务器录视频和整活。</p>
+              <div class="voice-command-actions">
+                <button type="button" data-voice-command="月华斩">月华斩</button>
+                <button type="button" data-voice-command="人皇斩">人皇斩</button>
+                <button type="button" data-voice-command="诛仙剑阵">诛仙剑阵</button>
+              </div>
+            </div>
+            <div class="voice-orb" aria-hidden="true">
+              <span data-voice-output>月华斩</span>
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+        </section>
+
+        <section class="section dynamic-showcase">
+          <div class="section-header reveal">
+            <span class="kicker">Live Systems</span>
+            <h2>最新版本不只是多了内容，而是多了能玩的层次</h2>
+            <p>最新 jar 已包含任务系统、时间碎片、元素矿石、锻刀台、本命飞剑模型资源与语音技能相关模块。页面下方会自动轮播这些核心资源。</p>
+          </div>
+          <div class="artifact-stage reveal" data-artifact-stage>
+            <div class="artifact-orbit" aria-hidden="true">
+              <img src="assets/textures/time_fragment.png" alt="">
+              <img src="assets/textures/fire_stone.png" alt="">
+              <img src="assets/textures/water_stone.png" alt="">
+              <img src="assets/textures/lightning_stone.png" alt="">
+            </div>
+            <div class="artifact-copy">
+              <span class="artifact-tag" data-artifact-tag>时间碎片</span>
+              <h3 data-artifact-title>时间碎片</h3>
+              <p data-artifact-desc>时间之力，回到过去。它让洪荒之路多了一层“命运被拨动”的神秘感。</p>
+            </div>
+            <div class="artifact-preview">
+              <img data-artifact-img src="assets/textures/time_fragment.png" alt="时间碎片">
+            </div>
           </div>
         </section>
 
